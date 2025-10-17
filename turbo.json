@@ -4,6 +4,10 @@
     "**/.env.*local",
     ".env"
   ],
+  "globalEnv": [
+    "PAYLOAD_SECRET",
+    "DATABASE_URI"
+  ],
   "tasks": {
     "dev": {
       "cache": false,
